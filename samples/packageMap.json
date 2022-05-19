@@ -1,0 +1,153 @@
+{
+  "a&b": {
+    "dependencies": {
+      "react-bootstrap": {
+        "_latest_": "2.4.0",
+        "^2.4.0": [
+          "sample-package-a"
+        ],
+        "^2.2.0": [
+          "sample-package-b"
+        ]
+      }
+    },
+    "peerDependencies": {
+      "react": {
+        "_latest_": "18.1.0",
+        ">=16.0.0": [
+          "sample-package-a",
+          "sample-package-b"
+        ]
+      }
+    },
+    "devDependencies": {
+      "babel-cli": {
+        "_latest_": "6.26.0",
+        "^6.26.0": [
+          "sample-package-a"
+        ],
+        "^6.24.0": [
+          "sample-package-b"
+        ]
+      },
+      "react": {
+        "_latest_": "18.1.0",
+        "^16.0.0": [
+          "sample-package-a",
+          "sample-package-b"
+        ]
+      },
+      "react-scripts": {
+        "_latest_": "5.0.1",
+        "^3.4.4": [
+          "sample-package-a",
+          "sample-package-b"
+        ]
+      }
+    },
+    "dependenciesAudit": {},
+    "peerDependenciesAudit": {},
+    "devDependenciesAudit": {
+      "babel-cli": {
+        "^6.26.0": {
+          "projects": [
+            "sample-package-a"
+          ],
+          "stats": {
+            "high": 10,
+            "low": 2
+          }
+        },
+        "^6.24.0": {
+          "projects": [
+            "sample-package-b"
+          ],
+          "stats": {
+            "high": 10,
+            "low": 2
+          }
+        }
+      },
+      "react-scripts": {
+        "^3.4.4": {
+          "projects": [
+            "sample-package-a",
+            "sample-package-b"
+          ],
+          "stats": {
+            "high": 20,
+            "moderate": 11,
+            "low": 2,
+            "critical": 1
+          }
+        }
+      }
+    }
+  },
+  "c": {
+    "dependencies": {
+      "react-bootstrap": {
+        "_latest_": "2.4.0",
+        "^2.4.0": [
+          "sample-package-c"
+        ]
+      }
+    },
+    "peerDependencies": {
+      "react": {
+        "_latest_": "18.1.0",
+        ">=16.0.0": [
+          "sample-package-c"
+        ]
+      }
+    },
+    "devDependencies": {
+      "babel-cli": {
+        "_latest_": "6.26.0",
+        "^6.26.0": [
+          "sample-package-c"
+        ]
+      },
+      "react": {
+        "_latest_": "18.1.0",
+        "^16.0.0": [
+          "sample-package-c"
+        ]
+      },
+      "react-scripts": {
+        "_latest_": "5.0.1",
+        "^3.4.4": [
+          "sample-package-c"
+        ]
+      }
+    },
+    "dependenciesAudit": {},
+    "peerDependenciesAudit": {},
+    "devDependenciesAudit": {
+      "babel-cli": {
+        "^6.26.0": {
+          "projects": [
+            "sample-package-c"
+          ],
+          "stats": {
+            "high": 10,
+            "low": 2
+          }
+        }
+      },
+      "react-scripts": {
+        "^3.4.4": {
+          "projects": [
+            "sample-package-c"
+          ],
+          "stats": {
+            "high": 20,
+            "moderate": 11,
+            "low": 2,
+            "critical": 1
+          }
+        }
+      }
+    }
+  }
+}

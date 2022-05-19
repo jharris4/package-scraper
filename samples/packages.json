@@ -1,0 +1,18 @@
+{
+  "a&b": [
+    {
+      "name": "sample-package-a",
+      "path": "/Users/jonharris/Source/package-scraper/samples/sample-package-a"
+    },
+    {
+      "name": "sample-package-b",
+      "path": "/Users/jonharris/Source/package-scraper/samples/sample-package-b"
+    }
+  ],
+  "c": [
+    {
+      "name": "sample-package-c",
+      "path": "/Users/jonharris/Source/package-scraper/samples/sample-package-c"
+    }
+  ]
+}

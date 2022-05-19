@@ -1,0 +1,18 @@
+{
+  "name": "package-scraper",
+  "description": "A tool to scrape the dependencies of multiple packages together",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jharris4/package-scraper.git"
+  },
+  "author": "Jon Harris",
+  "main": "bin/package-scraper",
+  "bin": "bin/package-scraper",
+  "files": [
+    "README.md",
+    "bin/package-scraper",
+    "src/scrapePackage.js"
+  ]
+}

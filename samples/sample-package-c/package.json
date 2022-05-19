@@ -1,0 +1,21 @@
+{
+  "name": "sample-package-b",
+  "dependencies": {
+    "react-bootstrap": "^2.4.0",
+    "material-ui": "^0.20.2",
+    "react-toggle": "^4.1.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "react": "^16.0.0",
+    "react-scripts": "^3.4.4"
+  },
+  "scripts": {
+    "build": "babel src",
+    "start": "react-scripts start",
+    "eject": "react-scripts eject"
+  },
+  "peerDependencies": {
+    "react": ">=16.0.0"
+  }
+}
